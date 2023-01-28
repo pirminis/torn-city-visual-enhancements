@@ -22,4 +22,14 @@
   window[loaded] = true;
 
   console.log("Torn City visual enhancements loaded.");
+
+  updateStyles();
+
+  function updateStyles() {
+    GM_addStyle(`
+      #user-money {
+        font-weight: bold;
+      }
+    `);
+  }
 })(window);
