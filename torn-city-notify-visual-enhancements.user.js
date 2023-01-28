@@ -7,6 +7,7 @@
 // @match        https://www.torn.com/*
 // @updateURL    https://github.com/pirminis/torn-city-visual-enhancements/raw/master/torn-city-visual-enhancements.user.js
 // @downloadURL  https://github.com/pirminis/torn-city-visual-enhancements/raw/master/torn-city-visual-enhancements.user.js
+// @grant        GM_addStyle
 // ==/UserScript==
 
 (function(global) {
