@@ -23,7 +23,7 @@
 
   console.log("Torn City visual enhancements loaded.");
 
-  updateStyles();
+  // updateStyles();
 
   function updateStyles() {
     GM_addStyle(`
