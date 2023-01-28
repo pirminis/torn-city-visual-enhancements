@@ -23,12 +23,21 @@
 
   console.log("Torn City visual enhancements loaded.");
 
-  // updateStyles();
+  updateStyles();
 
   function updateStyles() {
     GM_addStyle(`
-      #user-money {
-        font-weight: bold;
+      img.torn-item.red {
+        filter: none;
+        background-color: rgba(255,0,0,0.25);
+      }
+      img.torn-item.orange {
+        filter: none;
+        background-color: rgba(255,128,0,0.25);
+      }
+      img.torn-item.yellow {
+        filter: none;
+        background-color: rgba(255,255,0,0.25);
       }
     `);
   }
