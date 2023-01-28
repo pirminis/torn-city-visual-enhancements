@@ -4,7 +4,7 @@
 // @version      0.0.1
 // @description  Visual enhancements for Torn City
 // @author       pirminis
-// @match        https://www.torn.com/loader.php?sid=attack&user2ID=*
+// @match        https://www.torn.com/*
 // @updateURL    https://github.com/pirminis/torn-city-visual-enhancements/raw/master/torn-city-visual-enhancements.user.js
 // @downloadURL  https://github.com/pirminis/torn-city-visual-enhancements/raw/master/torn-city-visual-enhancements.user.js
 // ==/UserScript==
