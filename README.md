@@ -3,6 +3,8 @@ Tampermonkey script that makes some visual enhancements.
 
 Enhancements:
 - Yellow, orange and red item shadows removed but the background is painted instead. Makes it easier to notice the quality of special weapons and armor.
+- Weapon and armor bonus icons have increasesed contrast.
+- Weapon and armor images have increased contrast.
 
 # Installation
 Install the "Tampermonkey" browser plugin first.
