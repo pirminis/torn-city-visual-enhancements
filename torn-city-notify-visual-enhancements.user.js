@@ -10,7 +10,15 @@
 // ==/UserScript==
 
 (function(global) {
-  'use strict';
+  "use strict";
 
-  // implement
+  const loaded = "tornCityVisualEnhancementsLoaded";
+
+  if (window[loaded]) {
+    return;
+  }
+
+  window[loaded] = true;
+
+  console.log("Torn City visual enhancements loaded.");
 })(window);
