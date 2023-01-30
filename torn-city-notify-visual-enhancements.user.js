@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visual enhancements for Torn City
 // @namespace    https://github.com/pirminis/torn-city-visual-enhancements
-// @version      0.0.3
+// @version      0.0.4
 // @description  Visual enhancements for Torn City
 // @author       pirminis
 // @match        https://www.torn.com/*
@@ -33,7 +33,7 @@
       }
       img.torn-item.orange {
         filter: none;
-        background-color: rgba(255,128,0,0.25);
+        background-color: rgba(255,128,0,0.33);
       }
       img.torn-item.yellow {
         filter: none;
