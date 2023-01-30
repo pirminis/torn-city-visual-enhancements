@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visual enhancements for Torn City
 // @namespace    https://github.com/pirminis/torn-city-visual-enhancements
-// @version      0.0.4
+// @version      0.0.5
 // @description  Visual enhancements for Torn City
 // @author       pirminis
 // @match        https://www.torn.com/*
@@ -21,26 +21,30 @@
 
   window[loaded] = true;
 
-  console.log("Torn City visual enhancements loaded.");
-
   updateStyles();
 
   function updateStyles() {
     GM_addStyle(`
-      img.torn-item.red {
+      img.torn-item.red,
+      img[class*="rarity3"] {
         filter: none;
         background-color: rgba(255,0,0,0.25);
       }
-      img.torn-item.orange {
+      img.torn-item.orange,
+      img[class*="rarity2"] {
         filter: none;
         background-color: rgba(255,128,0,0.33);
       }
-      img.torn-item.yellow {
+      img.torn-item.yellow,
+      img[class*="rarity1"] {
         filter: none;
         background-color: rgba(255,255,0,0.25);
       }
 
-      img.torn-item.large {
+      img.torn-item.large,
+      img[class*="rarity3"],
+      img[class*="rarity2"],
+      img[class*="rarity1"] {
         filter: contrast(1.2);
       }
 
