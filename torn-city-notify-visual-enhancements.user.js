@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visual enhancements for Torn City
 // @namespace    https://github.com/pirminis/torn-city-visual-enhancements
-// @version      0.0.5
+// @version      0.0.6
 // @description  Visual enhancements for Torn City
 // @author       pirminis
 // @match        https://www.torn.com/*
@@ -22,6 +22,7 @@
   window[loaded] = true;
 
   updateStyles();
+  improveAuctionPagination();
 
   function updateStyles() {
     GM_addStyle(`
@@ -51,6 +52,28 @@
       .d [class^="bonus-attachment-"] {
         filter: contrast(1.2);
       }
+
+      .d .pagination-left {
+        position: absolute;
+        display: inline-block;
+        left: 10px;
+        top: 10px;
+      }
+      .d .pagination-right {
+        position: absolute;
+        display: inline-block;
+        right: 10px;
+        top: 10px;
+      }
     `);
+  }
+
+  function improveAuctionPagination() {
+    const itemsList = document.querySelector("#types-tab-1 .items-list-wrap");
+    const pagination = document.querySelector("#types-tab-1 .pagination-wrap");
+
+    if (itemsList.nextElementSibling == pagination) {
+      itemsList.before(pagination);
+    }
   }
 })(window);
