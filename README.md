@@ -7,7 +7,10 @@ Enhancements:
 - Weapon and armor images have increased contrast.
 - Auction page has pagination bar moved up and previous/next buttons glued to the left/right.
 
-# Installation
+## Installation
 Install the "Tampermonkey" browser plugin first.
 
 Then go to https://github.com/pirminis/torn-city-visual-enhancements/blob/master/torn-city-visual-enhancements.user.js and click "Raw" button and follow Tampermonkey instructions.
+
+## Screenshot
+<img width="1025" alt="Screenshot 2023-08-19 at 21 28 40" src="https://github.com/pirminis/torn-city-visual-enhancements/assets/2685976/834baae3-c53c-4a85-8a34-d3af8f10b04a">
