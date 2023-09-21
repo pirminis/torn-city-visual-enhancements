@@ -1,3 +1,9 @@
+## 0.0.7 - 2023-09-21
+
+### Item page
+
+- When using an item in the item page, it no longer jitters/changes height. So you can now spam "Use another" link
+
 ## 0.0.6 - 2023-08-15
 
 ### Auction house pagination

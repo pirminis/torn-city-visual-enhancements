@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visual enhancements for Torn City
 // @namespace    https://github.com/pirminis/torn-city-visual-enhancements
-// @version      0.0.6
+// @version      0.0.7
 // @description  Visual enhancements for Torn City
 // @author       pirminis
 // @match        https://www.torn.com/*
@@ -64,6 +64,9 @@
         display: inline-block;
         right: 10px;
         top: 10px;
+      }
+      .action-wrap.use-act.use-action {
+        height: 55px;
       }
     `);
   }
