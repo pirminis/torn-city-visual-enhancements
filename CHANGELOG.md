@@ -1,3 +1,9 @@
+## 0.0.8 - 2023-09-21
+
+### Item plates glow fixed
+
+- Item glow is now overrides new shitty item glow from original developers.
+
 ## 0.0.7 - 2023-09-21
 
 ### Item page
