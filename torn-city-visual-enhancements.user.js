@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visual enhancements for Torn City
 // @namespace    https://github.com/pirminis/torn-city-visual-enhancements
-// @version      0.0.8
+// @version      0.0.9
 // @description  Visual enhancements for Torn City
 // @author       pirminis
 // @match        https://www.torn.com/*
@@ -75,7 +75,7 @@
     const itemsList = document.querySelector("#types-tab-1 .items-list-wrap");
     const pagination = document.querySelector("#types-tab-1 .pagination-wrap");
 
-    if (itemsList.nextElementSibling == pagination) {
+    if (itemsList && pagination && itemsList.nextElementSibling == pagination) {
       itemsList.before(pagination);
     }
   }
