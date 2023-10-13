@@ -1,3 +1,9 @@
+## 0.0.10 - 2023-10-13
+
+### Item plates glow fixed
+
+- Item glow is now fixed yet again, also it colorized bazaar items
+
 ## 0.0.8 - 2023-09-21
 
 ### Item plates glow fixed

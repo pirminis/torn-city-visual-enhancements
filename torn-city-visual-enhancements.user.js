@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visual enhancements for Torn City
 // @namespace    https://github.com/pirminis/torn-city-visual-enhancements
-// @version      0.0.9
+// @version      0.0.10
 // @description  Visual enhancements for Torn City
 // @author       pirminis
 // @match        https://www.torn.com/*
@@ -27,39 +27,31 @@
   function updateStyles() {
     GM_addStyle(`
       .glow-red,
-      .d .item-plate.glow-red {
+      #body.d .item-plate.glow-red,
+      div[class*="imgContainer"] [class*='rarity3'] {
         filter: none;
         background: rgba(255,0,0,0.25);
       }
       .glow-orange,
-      .d .item-plate.glow-orange {
+      #body.d .item-plate.glow-orange,
+      div[class*="imgContainer"] [class*='rarity2'] {
         filter: none;
         background: rgba(255,128,0,0.33);
       }
       .glow-yellow,
-      .d .item-plate.glow-yellow {
+      #body.d .item-plate.glow-yellow,
+      div[class*="imgContainer"] [class*='rarity1'] {
         filter: none;
         background: rgba(255,255,0,0.25);
       }
 
-      img.torn-item.large,
-      img[class*="rarity3"],
-      img[class*="rarity2"],
-      img[class*="rarity1"] {
-        filter: contrast(1.2);
-      }
-
-      .d [class^="bonus-attachment-"] {
-        filter: contrast(1.2);
-      }
-
-      .d .pagination-left {
+      #body.d .pagination-left {
         position: absolute;
         display: inline-block;
         left: 10px;
         top: 10px;
       }
-      .d .pagination-right {
+      #body.d .pagination-right {
         position: absolute;
         display: inline-block;
         right: 10px;
