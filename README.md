@@ -3,8 +3,6 @@ Tampermonkey script that makes some visual enhancements.
 
 Enhancements:
 - Yellow, orange and red item shadows removed but the background is painted instead. Makes it easier to notice the quality of special weapons and armor.
-- Weapon and armor bonus icons have increasesed contrast.
-- Weapon and armor images have increased contrast.
 - Auction page has pagination bar moved up and previous/next buttons glued to the left/right.
 - When pressing "Use another" (item) link in the items page, the row does not change height anymore. That means you can spam "Use another" link.
 
