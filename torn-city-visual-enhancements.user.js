@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visual enhancements for Torn City
 // @namespace    https://github.com/pirminis/torn-city-visual-enhancements
-// @version      0.0.10
+// @version      0.0.11
 // @description  Visual enhancements for Torn City
 // @author       pirminis
 // @match        https://www.torn.com/*
@@ -26,6 +26,10 @@
 
   function updateStyles() {
     GM_addStyle(`
+      [class*="innerOutcomeWrapper"] [class*="story"],
+      [class*="innerOutcomeWrapper"] [class*="divider"] {
+        display: none;
+      }
       .glow-red,
       #body.d .item-plate.glow-red,
       div[class*="imgContainer"] [class*='rarity3'] {

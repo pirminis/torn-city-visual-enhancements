@@ -5,6 +5,7 @@ Enhancements:
 - Yellow, orange and red item shadows removed but the background is painted instead. Makes it easier to notice the quality of special weapons and armor.
 - Auction page has pagination bar moved up and previous/next buttons glued to the left/right.
 - When pressing "Use another" (item) link in the items page, the row does not change height anymore. That means you can spam "Use another" link.
+- Hide crime outcome text.
 
 ## Installation
 Install the "Tampermonkey" browser plugin first.

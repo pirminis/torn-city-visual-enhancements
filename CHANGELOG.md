@@ -1,3 +1,9 @@
+## 0.0.11 - 2023-11-18
+
+### Visual changes
+
+- Hide crime outcome text. Rewards still visible.
+
 ## 0.0.10 - 2023-10-13
 
 ### Item plates glow fixed
